@@ -1,0 +1,251 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size:  15px;
+    line-height: 1.5;
+    font-family: "Montserrat" , sans-serif;
+    box-sizing: inherit;
+}
+.image{
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.left-side{
+   
+    width: 40%;
+    height: 700px;
+    position: fixed;
+    float: left;
+
+}
+.image{
+    height: 650px; 
+    width: 101%;
+}
+.right-side {
+    width: 54%;
+    height: auto;
+    float: right;
+    margin-left: 40%;
+    padding: 12px 24px;
+}
+.main-head{
+    padding: 128px 16px;
+    text-align: center;
+}
+.main-btn{
+    padding: 12px 24px;
+    margin: 16px 0;
+    background-color:#f1f1f1;
+    font-size: 16px;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+.main-btn:hover{
+    color:black;
+    background-color: #cccccc;
+}
+h1{
+    font-size: 64px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.portfolio{
+    padding: 0 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+h2{
+    font-size: 32px;
+    font-weight: 400;
+    margin: 10px 0;
+    color: grey;
+    padding: 16px 0;
+}
+.icon{
+    float: right;
+    width: auto;
+    color: #6b6a6a;
+    font-size: 32px;
+}
+
+.main-head{
+    padding: 128px 16px;
+    text-align: center;
+}
+
+.containner{
+ 
+    height: auto;
+    width: 99%;
+    padding: 32px 0;
+}
+
+.img{
+    margin-bottom: 12px;
+}
+img{
+    width: 100%;
+  
+}
+.column-1{
+    width: 46%;
+    height: 200%;
+    float: left;
+}
+
+
+
+.column-2{
+    width: 46%;
+    height: 200%;
+    float: right;
+}
+
+.About{
+    padding: 32px 0;
+}
+.bar-color{
+    color: #000;
+    background-color: #f1f1f1;
+}
+
+.dark{
+    width: 95%;
+    color: #fff;
+    background-color: #616161;
+    padding: 4px 8px;
+    text-align: center;
+}
+.bar {
+    padding: 16px 0;
+    margin: 16px 0;
+    height: 100px;
+    color: #fff;
+    background-color: #616161;
+}
+
+.bar-section{
+    height: 64%;
+    width: 24%;
+    float: left;
+    margin: 16px 0;
+    text-align: center;
+
+}
+
+.avatar{
+    width: 11%;
+    float: left;
+    margin-right: 16px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border-style: none;   
+}
+.Para2{
+    color: grey;
+    text-align: justify;
+}
+.box{ 
+    margin: 0 -16px;
+    padding: 0 8px;
+
+}
+
+.row{
+    padding: 0 8px;
+    margin-bottom: 16px;
+    float: left;
+    width: 47.5%;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);;
+}
+
+.row2{
+    padding: 0 8px;
+    margin-bottom: 16px;
+    float: right;
+    width: 47.5%;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.list{
+    text-align: center;
+    /* box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12); */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.one{
+    padding: 16px 0;
+    color: grey;
+}
+
+.pro{
+    color: #fff;
+    background-color: #000;
+}
+
+.One{
+    border-bottom: 1px solid #ddd;
+    color: #fff;
+    background-color: #616161;
+    padding: 32px 0;
+    font-size: 24px;
+}
+
+.black{
+    font-size: 18px;
+    margin-right: 16px;
+    text-align: justify;
+    color: black;
+}
+
+.signup{
+    color: #000;
+    background-color: #f1f1f1;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.button{
+    padding: 12px 24px;
+    margin: 16px 0;
+    background-color:#f1f1f1;
+    font-size: 18px;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}
+.formdata{
+    padding: 16px 10px;
+    font-size: 16px;
+    display: block;
+    border: none;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.page-end{
+    color: #000;
+    background-color: #f1f1f1;
+    padding: 64px 0;
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.60;
+}
